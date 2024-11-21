@@ -4,7 +4,6 @@ import FeaturesSection from '../../components/featuressection/FeaturesSection';
 import Videos from '../../components/videos/Videos';
 import Testimonials from '../../components/testimonals/Testimonials';
 import Pricing from '../../components/pricing/Pricing';
-import CallToAction from '../../components/calltoaction/CalltoAction.jsx';
 
 function Home() {
     return (
@@ -18,7 +17,7 @@ function Home() {
             <div id="pricing">
                 <Pricing />
             </div>
-            <CallToAction />
+
         </div>
     );
 }
