@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 import express from 'express';
 import cors from 'cors';
-import bcrypt from 'bcrypt';
+import bcryptjs from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import dotenv from 'dotenv';
 
@@ -48,7 +48,7 @@ app.post('/signup', async (req, res) => {
         }
 
         // Hash password
-        const hashedPassword = await bcrypt.hash(password, 10);
+        const hashedPassword = await bcryptjs.hash(password, 10);
 
         // Create new user
         const user = new User({ name, email, password: hashedPassword });
@@ -72,7 +72,7 @@ app.post('/login', async (req, res) => {
         }
 
         // Check password
-        const isMatch = await bcrypt.compare(password, user.password);
+        const isMatch = await bcryptjs.compare(password, user.password);
         if (!isMatch) {
             return res.status(400).json({ message: 'Invalid email or password' });
         }
