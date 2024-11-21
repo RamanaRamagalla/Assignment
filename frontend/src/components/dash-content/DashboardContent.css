@@ -1,0 +1,66 @@
+.dashboard-content {
+    padding: 20px;
+    flex: 1;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.card h4 {
+    color: #497eff;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #7a7a7a;
+    margin: 10px 0;
+}
+
+.card button {
+    background-color: transparent;
+    border: none;
+    color: #497eff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.project-start {
+    margin-top: 40px;
+    text-align: center;
+    background-color: #f9faff;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.project-start h3 {
+    color: #497eff;
+}
+
+.project-start p {
+    font-size: 0.9rem;
+    color: #7a7a7a;
+    margin-bottom: 20px;
+}
+
+.project-start button {
+    background-color: #497eff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.project-start button:hover {
+    background-color: #3166cc;
+}

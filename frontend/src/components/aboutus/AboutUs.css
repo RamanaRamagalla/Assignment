@@ -1,0 +1,64 @@
+.about-us {
+    padding: 40px;
+    color: white;
+    background-color: #000;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.about-us-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.about-us-header h2 {
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #00bcd4;
+
+}
+
+.about-us-mission,
+.about-us-core-values,
+.about-us-tools,
+.about-us-contact {
+    margin-top: 30px;
+}
+
+.about-us-mission h3,
+.about-us-core-values h3,
+.about-us-tools h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.about-us-core-values ol {
+    padding-left: 20px;
+}
+
+.about-us-core-values li {
+    margin-bottom: 10px;
+}
+
+.about-us-tools ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.about-us-tools ul li {
+    margin-bottom: 8px;
+}
+
+.about-us-contact a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+.about-us-contact a:hover {
+    text-decoration: underline;
+}

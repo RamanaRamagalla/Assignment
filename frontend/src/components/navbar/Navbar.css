@@ -1,0 +1,66 @@
+/* General reset and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #000;
+}
+
+
+.navbar-left img {
+    width: 100px;
+    height: auto;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-right ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-right ul li {
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.navbar-right a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar-right a:visited {
+    color: inherit;
+}
+
+.navbar-right a:hover {
+    color: #fff;
+}
+
+.navbar-right .btn {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-right .btn:hover {
+    background-color: #0056b3;
+}
